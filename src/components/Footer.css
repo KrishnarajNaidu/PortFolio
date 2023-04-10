@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: rgb(48, 48, 48);
+}
+
+.footer-container {
+    width: 100%;
+    padding: 7px 3px 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(133, 126, 238);
+    margin: 10px;
+    height: 4rem;
+    width: 4rem;
+    
+    border-radius: 50%;
+}
+
+.social-icons a i {
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+    margin-left:0.4rem ;
+    margin-top: 0.4rem;
+}
+
+.social-icons a:hover {
+    background-color: rgba(133, 126, 238, 0.918);
+    transition: 0.5s;
+}
+
+.social-icons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav {
+    margin: 20px 0;
+}
+.footernav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footernav ul li a{
+    color: white;
+    margin: 13px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: 0.5s;
+    padding: 10px;
+    
+}
+
+.footernav ul li a:hover {
+    background-color:rgb(133, 126, 238);
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.5s linear;
+}
+
+.footerbottom {
+    background-color: #1d1d1d;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom p {
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media(max-width:700px) {
+    .footernav ul {
+        flex-direction: column;
+    }
+    .footer-container {
+        padding: 7px 3px 5px;
+    }
+
+    .footernav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+        margin: 7px;
+    }
+    .footernav ul li a{
+font-size: 16px;
+
+    }
+    .social-icons a {
+       
+        height: 3rem;
+        width: 3rem;
+        padding: 0;
+        margin: 5px;
+        
+    }
+    .social-icons a i {
+      
+        margin-left:0.4rem ;
+        margin-top: 0.5rem;
+    }
+}
+@media(max-width:426px){
+
+}

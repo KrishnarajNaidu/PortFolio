@@ -1,0 +1,304 @@
+
+.section-1{
+    animation: transitionIn 0.75s;
+    height: 59.2rem;
+    background: rgb(255,255,255);
+background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(201,176,233,0.9136029411764706) 0%, rgba(176,222,233,0.9023984593837535) 100%);
+}
+
+.title-section {
+    margin-bottom: 40px;
+    position: relative;
+    display: block;
+    line-height: 24px;
+    text-align: center;
+}
+
+.title-bg {
+    font-size: 90px;
+    font-weight: 1000;
+    letter-spacing: 10px;
+    color: hsla(0, 0%, 100%, 0.13);
+    line-height: 67px;
+    text-transform: uppercase;
+}
+
+.title-section h2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 48px;
+    font-weight: 1000;
+    line-height: 69px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.title-section h2 span {
+    color: rgb(133, 126, 238);
+}
+.title-section{
+   padding-top: 8rem;
+}
+/* .about-me {
+    margin-bottom: 150px;
+} */
+
+.about-me .parent-col-6-1 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-me .parent-col-6-1 h2 {
+    color: rgb(133, 126, 238);
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+}
+.about-me .parent-col-6-1 h2 span{
+    color: rgb(255, 255, 255);
+}
+
+
+.about-me .row .child-col-6 .about-data {
+    display: flex;
+}
+
+.about-me .row .child-col-6 p {
+    color: rgb(85, 85, 85);
+    opacity: 0.6;
+    text-transform: capitalize;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.about-me .row .child-col-6 span {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.about-me .row .child-col-6 .green {
+    color: rgb(15, 165, 48);
+}
+
+.about-me .btn-main {
+    margin-top: 25px;
+    
+}
+
+/* //button */
+.parent-col-6-1 a {
+    text-decoration: none;
+}
+
+.btn-main {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 230px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid rgb(133, 126, 238);
+    transition: all 0.5s;
+}
+
+.btn-main .btn-txt {
+    margin-left: 25px;
+    margin-top: 15px;
+    background-color: transparent;
+
+}
+
+.btn-main .btn-txt p {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn-main .btn-icon {
+    height: 55px;
+    width: 55px;
+    background-color: rgb(133, 126, 238);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+
+}
+
+.btn-main .btn-icon i {
+    color: white;
+    transition: all 0.5s;
+    font-size: 24px;
+
+}
+
+.btn-main:hover {
+    background-color: rgb(133, 126, 238);
+}
+
+.btn-main:hover .btn-icon {
+    background-color: white;
+}
+
+.btn-main:hover .btn-icon i {
+    color: rgb(133, 126, 238);
+}
+
+.btn-main .btn-txt p {
+    color: white;
+}
+
+/* //2 parent */
+
+.about-me .about-me-box {
+    border: 1px solid #696969;
+    padding: 20px 30px 25px 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    
+}
+.about-me .about-me-box:hover{
+    background-color:rgb(173, 167, 252) ;
+}
+.about-me .about-me-box:hover h2 {
+    color: rgb(255, 255, 255);
+}
+.about-me .about-me-box:hover p {
+    color: rgb(108, 97, 255);
+}
+
+.about-me .parent-col-6-2 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-me .parent-col-6-2 .col-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-me .about-me-box h2 {
+    font-size: 50px;
+    color: rgb(133, 126, 238);
+}
+
+.about-me .about-me-box p {
+    padding-left: 45px;
+    font-size: 16px;
+    text-transform: uppercase;
+    max-width: 130px;
+    color: white;
+
+}
+
+@media (max-width: 1200px) {
+    .about-me {
+        width: 100%;
+    }
+
+    .about-me .row .child-col-6 .about-data {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .about-me .row .child-col-6 .about-data p {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-me .parent-col-6-1 {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 40px;
+    }
+
+
+    .about-me .parent-col-6-2 {
+        width: 100%;
+    }
+
+    .about-me .row .child-col-6 .about-data {
+        display: flex;
+    }
+
+    .about-me .experience .col-6 {
+        width: 100%;
+    }
+    .section-1{
+        height: 78rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-me .skills .sub-title .row {
+        display: block;
+    }
+
+    .about-me .skills .sub-title .progress-grp {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-me .row .child-col-6 .about-data {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .about-me .about-me-box {
+        padding: 10px 20px 15px 30px;
+    }
+
+    .about-me .about-me-box p {
+        padding-left: 0;
+    }
+    .title-bg {
+        font-size: 70px;
+       
+    }
+    
+    .title-section h2 {
+     
+        font-size: 40px;
+    }
+    .section-1{
+        height: 83rem;
+    }
+    /* .small-size{
+        font-size: xx-small;
+    } */
+ 
+}
+
+@media (max-width: 576px) {
+    .title-bg {
+        font-size: 50px;
+       
+    }
+    
+    .title-section h2 {
+     
+        font-size: 25px;
+    }
+}
+@media (max-width: 530px) {
+.about-me .row{
+    padding-left: none;
+}
+}
+@media (max-width: 502px) {
+    .about-me .row .child-col-6 p {
+font-size: 11.5px;
+    }
+
+    .about-me .row .child-col-6 span {
+        font-size: 11.5px;
+            }
+    }
+
